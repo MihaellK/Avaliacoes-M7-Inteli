@@ -1,0 +1,9 @@
+services: 
+  # Define o serviço (imagem que sera rodada) backend e roda a imagem upada no docker hub com a tag 'backend', localizada no repositório mihaell/prova-mod7
+  backend:
+    image: mihaell/prova-mod7:backend
+  # Define o serviço (imagem que sera rodada) frontend e roda a imagem upada no docker hub com a tag 'frontend', localizada no repositório mihaell/prova-mod7
+  frontend:
+    image: mihaell/prova-mod7:frontend
+
+ 

@@ -1,16 +1,15 @@
 # Avaliacoes-M7-Inteli
 Avaliações do Módulo 7
 
-Para executar o backend:
+Para executar o docker compose voce deve estar localizado na pasta root dessa avialação, a mesma do readme. Rode
 
 ```bash
-python main.py
+docker compose up
 ```
-
-Para executar o frontend:
-
-```bash
-node server.js
-```
-
-| ***IMPORTANTE:*** Utilizar dentro do contexto do container.
+Explicações e justificativas se encontram comentadas no código e abaixo nas imagens
+## Justificativas Backend
+![Explicação Backend](/Midia/backend.png)
+## Justificativas Frontend
+![Explicação Frontend](/Midia/frontend.png)
+## Justificativas DockerCompose
+![Explicação Docker Compose](/Midia/docker-compose.png)
